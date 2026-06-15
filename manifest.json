@@ -1,1 +1,23 @@
-
+{
+  "name": "Sandro Rhilmanelly | Plataformas",
+  "short_name": "Sandro Apps",
+  "description": "Amigos de Amor, Dream Absoluta, Top Master — sistemas completos",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F5FC",
+  "theme_color": "#9B59B6",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
