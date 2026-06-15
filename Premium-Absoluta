@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP MASTER | Mestre Offline • Sandro Rhilmanelly</title>
+    <link rel="stylesheet" href="estilo-top.css">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#B8860B">
+</head>
+<body>
+
+    <header class="cabecalho-top">
+        <div class="logo-top">
+            <h1>TOP <span>MASTER</span></h1>
+            <p>MESTRE OFFLINE • FUNCIONA SEM INTERNET</p>
+        </div>
+        <a href="../index.html" class="botao-voltar-top">⬅ VOLTAR</a>
+    </header>
+
+    <section class="aviso-offline">
+        <span>📡 MODO OFFLINE ATIVO</span>
+        <p>Todos os dados ficam salvos no aparelho. Acesse sem conexão.</p>
+    </section>
+
+    <main class="conteudo-ferramentas">
+        <h2>🛠 CONTROLE DE OBRAS E SERVIÇOS</h2>
+        <div class="grade-ferramentas">
+
+            <div class="cartao-ferramenta">
+                <span class="icone">🏗️</span>
+                <h3>GERENCIAR OBRAS</h3>
+                <p>Cadastro de locais, etapas, materiais e mão de obra.</p>
+            </div>
+
+            <div class="cartao-ferramenta">
+                <span class="icone">📋</span>
+                <h3>LISTA DE MATERIAIS</h3>
+                <p>Controle de estoque, compras e consumo por serviço.</p>
+            </div>
+
+            <div class="cartao-ferramenta">
+                <span class="icone">👷</span>
+                <h3>EQUIPE E ESCALAS</h3>
+                <p>Registro de funcionários, horários e atividades executadas.</p>
+            </div>
+
+            <div class="cartao-ferramenta">
+                <span class="icone">💾</span>
+                <h3>BACKUP LOCAL</h3>
+                <p>Salvamento automático no aparelho. Nunca perde informação.</p>
+            </div>
+
+            <div class="cartao-ferramenta">
+                <span class="icone">📄</span>
+                <h3>RELATÓRIOS RÁPIDOS</h3>
+                <p>Visualização de gastos, tempo e lucro de cada obra.</p>
+            </div>
+
+            <div class="cartao-ferramenta">
+                <span class="icone">🔌</span>
+                <h3>SEM DEPENDÊNCIA</h3>
+                <p>Usa em qualquer lugar, estradas, zonas rurais ou sem sinal.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="rodape-top">
+        © TOP MASTER MESTRE OFFLINE • SANDRO RHILMANELLY
+    </footer>
+
+    <script src="script-top.js"></script>
+</body>
+</html>
 index.html
