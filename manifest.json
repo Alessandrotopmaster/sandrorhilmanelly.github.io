@@ -1,14 +1,14 @@
 {
-  "name": "Sandro Rhilmanelly - Plataformas Digitais",
-  "short_name": "Sandro Apps",
-  "description": "Sistemas: Amigos de Amor, Dream Absoluta e Top Master",
+  "name": "Sandro Rhilmanelly - Portfólio",
+  "short_name": "Sandro Rhilmanelly",
+  "description": "Portfólio de projetos - Amigos de Amor, Dream Absoluta, Top Master",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#F8F5FC",
+  "orientation": "portrait-or-landscape",
   "theme_color": "#9B59B6",
+  "background_color": "#F8F5FC",
   "lang": "pt-BR",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "icone-192.png",
@@ -21,6 +21,62 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-1280x720.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Amigos de Amor",
+      "short_name": "Amigos",
+      "description": "Acesse o projeto Amigos de Amor",
+      "url": "/sandrorhilmanelly-amo-amigos/amigos-de-amor/",
+      "icons": [
+        {
+          "src": "icon-amigos-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dream Absoluta",
+      "short_name": "Dream",
+      "description": "Acesse o projeto Dream Absoluta",
+      "url": "/app-drimeam-absoluta/",
+      "icons": [
+        {
+          "src": "icon-dream-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Top Master",
+      "short_name": "Top Master",
+      "description": "Acesse o projeto Top Master",
+      "url": "/Top--master--mestre-offline/",
+      "icons": [
+        {
+          "src": "icon-topmaster-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
